@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>凡客-用户登录</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/enter.css">
+</head>
+<body>
+    <!-- logo -->
+    <div id="logo">
+        <div class="logo_inner containner">
+            <h1><a href="./index.html" title="凡客购物商城">凡客</a></h1>
+            <a href="#" class="a1">帮助</a>
+        </div>
+    </div>
+
+    <!-- 登录 -->
+    <div id="enter">
+        <div class="enter_inner containner clearfix">
+            <div class="h2">
+                <h2>凡客 Vancl 登录<span>没有账户免费<a href="./login.html">注册</a></span></h2>
+            </div>
+            <div class="enter clearfix">
+                <div class="e_img">
+                    <img src="./images/login120412_newlogo.jpg" alt="">
+                </div>
+                <div class="e_form">
+                    <ul class="nav clearfix">
+                        <li class="on">普通登录</li>
+                        <li class="">快速登录</li>
+                    </ul>
+                    <!-- 普通登录 -->
+                    <div class="e_login">
+                        <div class="login_s">
+                            <input type="text" class="txt" placeholder="请输入用户名"><br>
+                            <div class="inp_ts"></div>
+                            <input type="password" class="pw" placeholder="请输入密码">
+                            <div class="inp_ts"></div>
+                        </div>
+                        <div class="login_a">
+                            <a href="#">找回密码</a>
+                            <div></div>
+                            <input type="button" class="st" value="登录">
+                        </div>
+                        <div class="lines"></div>
+                        <div class="font">
+                            <p>使用合作网站账号登录凡客</p>
+                            <div class="font_a clearfix">
+                                <a href="#"></a>
+                                <a href="#"></a>
+                                <a href="#"></a>
+                                <a href="#"></a>
+                                <a href="#"></a>
+                                <a href="#"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 快速登录 -->
+                    <div class="k_login">
+                        <div class="k_sj">
+                            <input type="text" class="k_txt" placeholder="输入手机号">
+                            <a href="#">获取短信验证码</a>
+                        </div>
+                        <div class="k_yzm">
+                            <input type="text" placeholder="验证码">
+                            <img src="./images/CalculateValidateCode.ashx.jpg" alt="">
+                            <a href="#">看不清,换一张</a>
+                        </div>
+                        <div class="s_yzm">
+                            <input type="text" placeholder="请输入手机验证码">
+                        </div>
+                        <div class="login_a clearfix">
+                            
+                            <input type="submit" class="st" value="登录">
+                        </div>
+                        <div class="lines"></div>
+                        <div class="font">
+                            <p>使用合作网站账号登录凡客</p>
+                            <div class="font_a clearfix">
+                                <a href="#"></a>
+                                <a href="#"></a>
+                                <a href="#"></a>
+                                <a href="#"></a>
+                                <a href="#"></a>
+                                <a href="#"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- 底部footer -->
+    <div id="footer">
+        <div class="footer_inner containner">
+            <p>Copyright 2007 - 2020 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号</p>
+            <div class="f_img">
+                <a href="#"></a>
+                <span></span>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="./jquery/jquery-1.12.4.js"></script>
+    <script src="./js/enter.js"></script>
+    <script src="./js/cookie.js"></script>
+    <script>
+        $('.e_form>.nav>li').click(function(){
+            $(this).addClass('on').siblings().removeClass('on');
+            $('.e_form>div').eq($(this).index()).css('display','block').siblings('div').css('display','none');
+        })
+    </script>
+</body>
+</html>

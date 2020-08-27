@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>凡客-会员免费注册</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <!-- logo -->
+    <div id="logo">
+        <div class="logo_inner containner">
+            <h1><a href="./index.html" title="凡客购物商城">凡客</a></h1>
+        </div>
+    </div>
+
+    <!-- 注册模块 -->
+    <div id="login">
+        <div class="login_inner containner">
+            <div class="h2">
+                <h2>
+                    注册新用户
+                    <span>我已经注册,现在就<a href="./enter.html">登录</a></span>
+                </h2>
+            </div>
+            
+            <div class="l_img">
+                <img src="./images/login120412_newlogo.jpg" alt="">
+            </div>
+            <div class="content">
+                <form class="clearfix">
+                    <div class="yzm">
+                        <input type="text" name="username" class="y_txt" placeholder="请输入用户名">
+                        <!-- <img src="./images/CalculateValidateCode.ashx.jpg" alt=""> -->
+                    </div>
+                    <div class="txt1"></div>
+                    <div class="sjh">
+                        <input type="text" name="dianhua" class="s_txt" placeholder="请输入手机号">
+                        <a href="#">获取验证码</a>
+                    </div>
+                    <div class="txt2"></div>
+                    <div class="s_yzm">
+                        <input type="text" class="sj_txt" placeholder="请输入手机验证码">
+                    </div>
+                    <div class="mima">
+                        <input type="password" name="password" class="m_txt" placeholder="设置登录密码">
+                    </div>
+                    <div class="txt3"></div>
+                    <div class="mima_s">
+                        <input type="password" class="ms_txt" placeholder="再次输入密码">
+                    </div>
+                    <div class="txt4"></div>
+                    <div class="zc">
+                        <input type="checkbox" class="ck">
+                        <span>请阅读<a href="#">《VANCL凡客诚品服务条款》</a></span><br>
+                        <input type="button" class="st" disabled value="立即注册">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        
+    </script>
+
+    <!-- 底部footer -->
+    <div id="footer">
+        <div class="footer_inner containner">
+            <p>Copyright 2007 - 2020 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号</p>
+            <div class="f_img">
+                <a href="#"></a>
+                <span></span>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="./jquery/jquery-1.12.4.js"></script>
+    <script src="./js/login.js"></script>
+    <script>
+        $('.zc>.ck').click(function(){
+            if($(this).prop("checked")==true){
+                $(this).siblings('.st').attr('disabled',false);
+                $(this).siblings('.st').css("backgroundColor","#b52024");
+            }else{
+                $(this).siblings('.st').attr('disabled',true);
+                $(this).siblings('.st').css("backgroundColor","#9A9A9A");
+            }   
+        })
+    </script>
+</body>
+</html>

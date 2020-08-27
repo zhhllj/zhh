@@ -1,0 +1,599 @@
+/* banner */
+#banner{
+    width: 100%;
+    height: 535px;
+    margin-top: 30px;
+}
+.banner_inner{
+    height: 535px;
+    position: relative;
+    overflow: hidden;
+}
+.banner_inner ul li{
+    position: absolute;
+}
+.slider-ctrl{
+    width: 100%;
+    height: 100%;
+}
+.slider-ctrl .prev{
+    display: block;
+    width: 28px;
+    height: 60px;
+    background: url(../images/focus_lr0918.png) no-repeat 0 0;
+    position: absolute;
+    left: 10px;
+    top: 230px;
+    cursor: pointer;
+}
+.slider-ctrl .next{
+    display: block;
+    width: 28px;
+    height: 60px;
+    background: url(../images/focus_lr0918.png) no-repeat -52px 0;
+    position: absolute;
+    right: 10px;
+    top: 230px;
+    cursor: pointer;
+}
+.slider-ctrl_{
+    position: absolute;
+    height: 12px;
+    left: 43%;
+    top: 500px;
+    z-index: 4;
+}
+.slider-ctrl_ .slider-ctrl-con{
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    float: left;
+    background-color: #ddd;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.slider-ctrl_ .current{
+    background: #a10000;
+}
+
+/* 主体内容main */
+#main{
+    width: 100%;
+    min-height: 1000px;
+}
+.main_inner{
+    min-height: 1000px;
+}
+.m_top{
+    height: 50px;
+    width: 1200px;
+    margin-top: 40px;
+    margin-bottom: 28px;
+}
+.m_top a{
+    display: block;
+    width: 1200px;
+    height: 50px;
+}
+.seckill{
+    width: 1200px;
+    height: 64px;
+}
+.seckill .a_seckill{
+    display: block;
+    width: 1200px;
+    height: 64px;
+}
+.seckill .a_seckill .h_seckill{
+    height: 64px;
+    height: 100%;
+    background: url(../images/syms.jpg) no-repeat;
+}
+.a_seckill .h_seckill .s_seckill{
+    float: right;
+    color: #fff;
+    margin-left: 20px;
+    padding-right: 30px;
+    height: 64px;
+    line-height: 64px;
+    font-size: 18px;
+}
+.s_seckill em{
+    padding-left: 36px
+}
+.s_seckill .s_text{
+    color: #2d2d2d;
+    padding-right: 25px;
+}
+.sl_img{
+    height: 327px;
+    margin-top: 10px;
+}
+.sl_img ul{
+    width: 1200px;
+    height: 327px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.sl_img ul li a{
+    display: block;
+    width: 232px;
+    height: 327px;
+    color: #474747;
+}
+.sl_img ul li a .sl_t1{
+    height: 45px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.sl_img ul li a .sl_t2 span{
+    display: block;
+    color: #d3d3d3;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+.sl_img ul li a .sl_t3{
+    display: block;
+    color: #bb2b34;
+    font-size: 16px;
+    position: relative;
+}
+.sl_img ul li a .sl_t3 .sl_s1{
+    font-weight: 900;
+}
+.sl_img ul li a .sl_t3 .sl_s1 em{
+    font-weight: normal;
+}
+.sl_img ul li a .sl_t3 .sl_s2{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: #474747;;
+}
+.sl_img ul li a .sl_t3 .sl_s2 em{
+    font-size: 24px;
+    font-weight: 900;
+    color: #bb2b34;
+}
+/* 中间的图片内容 */
+.box{
+    min-height: 500px;
+    background: #fff;
+}
+.box-p{
+    width: 100%;
+    height: 20px;
+}
+.box-yh{
+    width: 100%;
+    height: 106px;
+
+}
+.box-yh a{
+    display: block;
+    float: left;
+    width: 600px;
+    height: 106px;
+}
+.box-h{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.box-h h2{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: #9a9a9a;
+}
+.b_img1{
+    width: 100%;
+    height: 824px;
+}
+.b_img1 .img1_left{
+    width: 663px;
+    float: left;
+    height: 824px;
+}
+.b_img1 .img1_left a{
+    display: block;
+    width: 663px;
+    height: 824px;
+}
+.img1_right{
+    width: 537px;
+    height: 824px;
+    float: left;
+}
+.img1_right li{
+    list-style: none;
+}
+.img1_right li a{
+    display: block;
+}
+
+.b_img2{
+    width: 100%;
+    height: 867px;
+}
+.b_img2 .img2_left{
+    width: 560px;
+    float: left;
+    height: 867px;
+}
+.img2_left li{
+    list-style: none;
+}
+.img2_left li a{
+    display: block;
+}
+.img2_right{
+    width: 640px;
+    height: 867px;
+    float: left;
+}
+.img2_right a{
+    display: block;
+}
+.b_img3{
+    width: 100%;
+    height: 874px;
+}
+.img3_left{
+    float: left;
+    width: 651px;
+    height: 874px;
+}
+.img3_left a{
+    display: block;
+}
+.img3_right{
+    float: left;
+    width: 549px;
+    height: 874px;
+}
+.img3_right li{
+    list-style: none;
+}
+.img3_right li a{
+    display: block;
+}
+
+.b_img4{
+    width: 100%;
+    height: 845px;
+}
+.img4_left{
+    width: 560px;
+    height: 845px;
+    float: left; 
+}
+.img4_left li{
+    list-style: none;
+}
+.img4_left li a{
+    display: block;
+}
+.img4_right{
+    float: left;
+    width: 640px;
+    height: 845px;
+}
+.img4_right a{
+    display: block;
+}
+.b_img5{
+    height: 331px;
+    width: 100%;
+}
+.b_img5 a{
+    display: block;
+    float: left;
+}
+
+/* <!-- 优选推荐 --> */
+.b_img6{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.b_img6 .img6_left{
+    float: left;
+    width: 592px;
+    height: 509px;
+    margin-right: 16px;
+}
+.b_img6 .img6_left a{
+    display: block;
+}
+ .img6_left h2{
+    height: 28px;
+    line-height: 28px;
+    padding: 20px 12px;
+    border: solid 1px #e8e7ec;
+    border-top: none;
+    font-size: 14px;
+    color: #333;
+}
+ .img6_left h2 span{
+    float: right;
+    color: #a10000;
+}
+.img6_left h2 span em{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.img6_center{
+    width: 290px;
+    float: left;
+    margin-right: 16px;
+}
+.img6_center .c_top{
+    width: 100%;
+    height: 249px;
+    margin-bottom: 11px;
+}
+.img6_center .c_top h2{
+    height: 28px;
+    line-height: 28px;
+    padding: 20px 12px;
+    border: solid 1px #e8e7ec;
+    border-top: none;
+    font-size: 14px;
+    color: #333;
+}
+.img6_center .c_top h2 span{
+    float: right;
+    color: #a10000;
+}
+.img6_center .c_top  h2 span em{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.img6_center .c_bottom{
+    width: 100%;
+    height: 249px;
+}
+.img6_center .c_bottom h2{
+    height: 28px;
+    line-height: 28px;
+    padding: 20px 12px;
+    border: solid 1px #e8e7ec;
+    border-top: none;
+    font-size: 14px;
+    color: #333;
+}
+.img6_center .c_bottom h2 span{
+    float: right;
+    color: #a10000;
+}
+.img6_center .c_bottom  h2 span em{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.img6_right{
+    float: left;
+    width: 286px;
+}
+.img6_right a{
+    display: block;
+}
+.img6_right h2{
+    height: 28px;
+    line-height: 28px;
+    padding: 20px 12px;
+    border: solid 1px #e8e7ec;
+    border-top: none;
+    font-size: 14px;
+    color: #333;
+}
+.img6_right h2 span{
+    float: right;
+    color: #a10000;
+}
+.img6_right h2 span em{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+.b_img7{
+    width: 100%;
+}
+.b_img7 .img7_left{
+    float: left;
+    width: 286px;
+    height: 509px;
+    margin-right: 16px;
+}
+.b_img7 .img7_left a{
+    display: block;
+}
+ .img7_left h2{
+    height: 28px;
+    line-height: 28px;
+    padding: 20px 12px;
+    border: solid 1px #e8e7ec;
+    border-top: none;
+    font-size: 14px;
+    color: #333;
+}
+ .img7_left h2 span{
+    float: right;
+    color: #a10000;
+}
+.img7_left h2 span em{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.img7_center{
+    width: 290px;
+    float: left;
+    margin-right: 16px;
+}
+.img7_center .c_top{
+    width: 100%;
+    height: 249px;
+    margin-bottom: 11px;
+}
+.img7_center .c_top h2{
+    height: 28px;
+    line-height: 28px;
+    padding: 20px 12px;
+    border: solid 1px #e8e7ec;
+    border-top: none;
+    font-size: 14px;
+    color: #333;
+}
+.img7_center .c_top h2 span{
+    float: right;
+    color: #a10000;
+}
+.img7_center .c_top  h2 span em{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.img7_center .c_bottom{
+    width: 100%;
+    height: 249px;
+}
+.img7_center .c_bottom h2{
+    height: 28px;
+    line-height: 28px;
+    padding: 20px 12px;
+    border: solid 1px #e8e7ec;
+    border-top: none;
+    font-size: 14px;
+    color: #333;
+}
+.img7_center .c_bottom h2 span{
+    float: right;
+    color: #a10000;
+}
+.img7_center .c_bottom  h2 span em{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.img7_right{
+    float: left;
+    width: 592px;
+}
+.img7_right a{
+    display: block;
+}
+.img7_right h2{
+    height: 28px;
+    line-height: 28px;
+    padding: 20px 12px;
+    border: solid 1px #e8e7ec;
+    border-top: none;
+    font-size: 14px;
+    color: #333;
+}
+.img7_right h2 span{
+    float: right;
+    color: #a10000;
+}
+.img7_right h2 span em{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.b_img_a{
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.b_img_a .img_a{
+    width: 285px;
+
+}
+.b_img_a .img_a a{
+    display: block;
+}
+.b_img_a .img_a h2{
+    height: 28px;
+    line-height: 28px;
+    padding: 20px 12px;
+    border: solid 1px #e8e7ec;
+    border-top: none;
+    font-size: 14px;
+    color: #333;
+}
+.b_img_a .img_a h2 span{
+    float: right;
+    color: #a10000;
+}
+.b_img_a .img_a h2 span em{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.b_img_s ul li{
+    float: left;
+    width: 385px;
+    height: 275px;
+    margin: 0 22px 28px 0;
+}
+.b_img_s ul li:nth-child(3){
+    margin-right: 0;
+}
+.b_img_s ul li:nth-child(6){
+    margin-right: 0;
+}
+
+/* 右侧导航 */
+#newNav{
+    width: 75px;
+    height: 281px;
+    border-top: solid 1px #b81b22;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    margin-bottom: 30px;
+    z-index: 10;
+}
+#newNav ul li{
+    width: 73px;
+    border: solid 1px #b81b22;
+    border-top: none;
+}
+#newNav ul li:nth-child(1) a{
+    display: block;
+    background: url(../images/baywindow0716.png) no-repeat -1px -1px;
+    height: 76px;
+}
+#newNav ul li:nth-child(2) a{
+    display: block;
+    background: url(../images/baywindow.png) no-repeat -1px -1px;
+    height: 76px;
+}
+#newNav ul li:nth-child(3) a{
+    display: block;
+    background: url(../images/baywindow.png) no-repeat -1px -78px;
+    height: 71px;
+}
+#newNav ul p{
+    display: none;
+}
+#newNav ul p a{
+    display: block;
+    width: 73px;
+    background: url(../images/baywindow.png) no-repeat -1px -149px;
+    height: 55px;
+    border: solid 1px #b81b22;
+    border-top: none;
+    
+}

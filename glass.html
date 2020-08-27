@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品详情页,放大镜</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    
+    <link rel="stylesheet" href="./css/glass.css">
+    <link rel="stylesheet" href="./css/home.css">
+    
+    
+</head>
+<body>
+        <!-- 顶部 -->
+        <div id="top">
+            <div class="top_inner containner">
+                <div class="top_img">
+                    <a href="#" class="a1_img"></a>
+                    <a href="#" class="a2_img"></a>
+                </div>
+                <div class="top_txt">
+                    <a href="#" class="a2">我的订单</a>
+                    <a href="#" class="a1">网站公告</a>        
+                </div>
+                <span>
+                    <a href="./enter.php">登录</a>&nbsp;&nbsp;
+                    |
+                    &nbsp;&nbsp;<a href="./login.html">注册</a>
+                </span>
+                <p>您好,欢迎光临凡客诚品！</p>
+            </div>
+            <!-- 顶部微信图片 -->
+            <div class="a1_img_s">
+                <img src="./images/weixin.png" alt="">
+            </div>
+        </div>
+        <!-- 头部header -->
+        <div id="header">
+            <div class="header_inner containner">
+                <!-- 搜索框 -->
+                <div class="search">
+                    <div class="searchTop">
+                        <div class="search_f1">
+                            <input type="text" class="text" placeholder="搜“麻衬衫”，体验与众不同">
+                            <input type="button" class="btn">
+                        </div>
+                        <!-- 购物车 -->
+                        <div class="login">
+                            <p>
+                                <a href="#">
+                                    购物车(
+                                        <span>0</span>
+                                    )
+                                </a>
+                            </p>
+                            <!-- 空白div -->
+                            <div class="login_"></div>
+                            <!-- 购物车显示和隐藏 -->
+                            <div class="login_s">
+                                <div class="login_a">
+                                    <div class="login_a1">您的购物车中没有任何商品</div>
+                                    <div class="login_a2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hotWord">
+                        <p>
+                            热门搜索&nbsp;:
+                            <a href="#">免烫衬衫</a>
+                            <a href="#">T恤</a>
+                            <a href="#">polo</a>
+                            <a href="#">卫衣</a>
+                            <a href="#">牛仔裤</a>
+                            <a href="#">帆布鞋</a>
+                            <a href="#">水柔棉</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- logo和nav部分 -->
+        <div id="nav_log">
+            <div class="nav_inner containner">
+                <div class="logo">
+                    <h1><a href="./index.html" title="欢迎进入凡客商城">凡客商城</a></h1>
+                </div>
+                <div class="nav">
+                    <ul class="ul clearfix">
+                        <li class="li1">
+                            <a href="./index.html">首页</a>
+                            <span class="sp"></span>
+                        </li>
+                        <li class="li2">
+                            <a href="#">印花T恤</a>
+                            <span class="sp"></span>
+                            <!-- 下拉列表 -->
+                            <ul class="ul2">
+                                <span></span>
+                                <li><a href="./list.html">变形金刚</a></li>
+                                <li><a href="#">同道大叔</a></li>
+                                <li><a href="#">喜羊羊与灰太狼</a></li>
+                                <li><a href="#">战疫系列</a></li>
+                                <li><a href="#">致敬系列</a></li>
+                                <li><a href="#">麻将系列</a></li>
+                                <li><a href="#">国潮系列</a></li>
+                                <li><a href="#">Vancl系列</a></li>
+                                <li><a href="#">电影系列</a></li>
+                                <li><a href="#">字系列</a></li>
+                                <li><a href="#">光变色系列</a></li>
+                                <li><a href="#">海悦系列</a></li>
+                                <li><a href="#">镭射反光系列</a></li>
+                                <li><a href="#">创可贴系列</a></li>
+                                <li><a href="#">功能T恤</a></li>
+                                <li><a href="#">童装</a></li>
+                                <li><a href="#">长袖T恤</a></li>                      
+                            </ul>
+                        </li>
+                        <li class="li3">
+                            <a href="#">纯色T恤</a>
+                            <span class="sp"></span>
+                            <!-- 下拉列表 -->
+                            <ul class="ul3">
+                                <span></span>
+                                <li><a href="#">紧密纺</a></li>
+                                <li><a href="#">重磅</a></li>
+                                <li><a href="#">多彩潮流</a></li>
+                                <li><a href="#">单向导湿</a></li>
+                                <li><a href="#">速干</a></li>
+                                <li><a href="#">其它</a></li>
+                            </ul>
+                        </li>
+                        <li class="li4">
+                            <a href="#">POLO</a>
+                            <span class="sp"></span>
+                            <!-- 下拉列表 -->
+                            <ul class="ul4">
+                                <span></span>
+                                <li><a href="#">全棉</a></li>
+                                <li><a href="#">速干</a></li>
+                                <li><a href="#">3D立体网眼</a></li>
+                                <li><a href="#">桑蚕丝</a></li>
+                                <li><a href="#">其他</a></li>
+                                <li><a href="#">长袖</a></li>
+                            </ul>
+                        </li>
+                        <li class="li5">
+                            <a href="#">商务衬衫</a>
+                            <span class="sp"></span>
+                            <!-- 下拉列表 -->
+                            <ul class="ul5">
+                                <span></span>
+                                <li><a href="#">短袖免烫</a></li>
+                                <li><a href="#">长袖免烫</a></li>
+                                <li><a href="#">舒适商务</a></li>
+                                <li><a href="#">高支衬衫</a></li>
+                                <li><a href="#">短袖桑蚕丝</a></li>
+                            </ul>
+                        </li>
+                        <li class="li6">
+                            <a href="#">休闲衬衫</a>
+                            <span class="sp"></span>
+                            <!-- 下拉列表 -->
+                            <ul class="ul6">
+                                <span></span>
+                                <li><a href="#">牛津纺</a></li>
+                                <li><a href="#">短袖牛津纺</a></li>
+                                <li><a href="#">水洗棉</a></li>
+                                <li><a href="#">短袖水洗棉</a></li>
+                                <li><a href="#">麻棉系列</a></li>
+                                <li><a href="#">易打理</a></li>
+                                <li><a href="#">短袖易打理</a></li>
+                                <li><a href="#">法兰绒</a></li>
+                                <li><a href="#">灯芯绒</a></li>
+                                <li><a href="#">复古风系列</a></li>
+                                <li><a href="#">女款</a></li>
+                            </ul>
+                        </li>
+                        <li class="li7">
+                            <a href="#">卫衣</a>
+                            <span class="sp"></span>
+                            <!-- 下拉列表 -->
+                            <ul class="ul7">
+                                <span></span>
+                                <li><a href="#">时尚款</a></li>
+                                <li><a href="#">开衫</a></li>
+                                <li><a href="#">圆领</a></li>
+                                <li><a href="#">连帽</a></li>
+                                <li><a href="#">针织衫</a></li>
+                                <li><a href="#">外套</a></li>  
+                            </ul>
+                        </li>
+                        <li class="li8">
+                            <a href="#">裤装</a>
+                            <span class="sp"></span>
+                            <!-- 下拉列表 -->
+                            <ul class="ul8">
+                                <span></span>
+                                <li><a href="#">牛仔裤</a></li>
+                                <li><a href="#">休闲裤</a></li>
+                                <li><a href="#">针织裤</a></li>
+                                <li><a href="#">运动系列</a></li>
+                                <li><a href="#">沙滩裤</a></li>
+                                <li><a href="#">短裤</a></li>  
+                                <li><a href="#">半裙</a></li>                           
+                            </ul>
+                        </li>
+                        <li class="li9">
+                            <a href="#">鞋</a>
+                            <span class="sp"></span>
+                            <!-- 下拉列表 -->
+                            <ul class="ul9">
+                                <span></span>
+                                <li><a href="#">帆布鞋</a></li>
+                                <li><a href="#">休闲鞋</a></li>
+                                <li><a href="#">运动鞋</a></li>
+                                <li><a href="#">凉鞋</a></li>
+                                <li><a href="#">皮鞋</a></li>
+                                <li><a href="#">靴子</a></li>  
+                                <li><a href="#">女鞋</a></li>                     
+                            </ul>
+                        </li>
+                        <li class="li10">
+                            <a href="#">家居配饰</a>
+                            <span class="sp"></span>
+                            <!-- 下拉列表 -->
+                            <ul class="ul10">
+                                <span></span>
+                                <li><a href="#">内衣袜品</a></li>
+                                <li><a href="#">内裤</a></li>
+                                <li><a href="#">家居服</a></li>
+                                <li><a href="#">连裤袜</a></li>
+                                <li><a href="#">家居鞋</a></li>
+                                <li><a href="#">床品件套</a></li>  
+                                <li><a href="#">毯</a></li>   
+                                <li><a href="#">被</a></li>
+                                <li><a href="#">围巾</a></li>
+                                <li><a href="#">枕</a></li>
+                                <li><a href="#">抱枕</a></li>
+                                <li><a href="#">手机壳</a></li>
+                                <li><a href="#">箱包</a></li>  
+                          </ul>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <!-- 放大镜部分 -->
+        <div id="content">
+            <div class="content containner clearfix">
+                <div class="cTop"></div>
+                <div class="c_txt">
+                    <a href="./index.html">首页</a>
+                    <span>></span>
+                    <a href="#">鞋</a>
+                    <span>></span>
+                    <a href="#">女鞋</a>
+                    <span>></span>
+                    <a href="#">帆布鞋</a>
+                    <span>></span>
+                    <span class="cs">凡客帆布鞋 高帮 女款</span>
+                </div>
+                <div class="c_nav">
+                    <h2>凡客帆布鞋 高帮 女款 纯白色</h2>
+                    <ul class="clearfix">
+                        <li>
+                            <a href="#">产品尺码</a>
+                            |
+                        </li>
+                        <li>
+                            <a href="#">模特搭配</a>
+                            |
+                        </li>
+                        <li>
+                            <a href="#">楦型工艺</a>
+                            |
+                        </li>
+                        <li>
+                            <a href="#">评论</a>
+                            |
+                        </li>
+                        <li>
+                            <a href="#">提问</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="kb"></div>
+                <!-- 购买商品详情部分 -->
+                <!-- 放大镜部分 -->
+                <div class="fdj clearfix">
+                    <!-- 左侧小图片 -->
+                    <div class="fdj_left clearfix">
+                        <div class="l_top"></div>
+                        <ul class="l_img">
+                            <li class="track track_li">
+                                <span class="t1 t1_on"></span>
+                            </li>
+                            <li class="track">
+                                <span class="t2"></span>
+                            </li>
+                            <li class="track">
+                                <span class="t3"></span>
+                            </li>
+                            <li class="track">
+                                <span class="t4"></span>
+                            </li>
+                            <li class="track">
+                                <span class="t5"></span>
+                            </li>
+                        </ul>
+                        <div class="l_bottom"></div>
+                    </div>
+                    <!-- 右侧放大镜小图 -->
+                    <div class="f_xiaotu">
+                        <div class="f_img">
+                            <a href="#">
+                                <img src="./images/start.png" alt="">
+                            </a>
+                            <img src="./images/xt1.jpg" alt="" id="m_img">
+                            <div class="img_txt">
+                                <span>2件7.5折</span>
+                            </div>
+                            <!-- 遮罩层 -->
+                            <div class="zzc"></div>
+                            <!-- 放大镜大图 -->
+                            <div class="f_datu">
+                                <img src="./images/dt1.jpg" alt="" id="d_img">
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- 商品选取区 -->
+                <div class="fdj_right clearfix">
+                    <div class="f_r_inner clearfix">
+                        <div class="sj">
+                            <span></span>
+                            <div class="sj_txt">
+                                <p>
+                                    <span class="s1">售价：￥</span>
+                                    <span class="s2">198.00</span>
+                                    <span class="s3">充值后相当于</span>
+                                    <span class="s4">:&nbsp;&nbsp; ¥99.00</span>
+                                </p>
+                                <a href="#">充100返100，点击充值</a>
+                            </div>
+                        </div>
+                        <span style="display: inline-block; height: 10px; width: 100%;"></span>
+                        <!-- 颜色尺码数量 -->
+                        <div class="main clearfix">
+                            <!-- 颜色选择 -->
+                            <div class="ys clearfix">
+                                <div class="ys_txt">
+                                    颜色 :&nbsp;
+                                </div>
+                                <div class="ys_img clearfix">
+                                    <ul class="clearfix">
+                                        <li class="on">
+                                            <a href="javascript: ;" class="on_s">
+                                                <span class="on_a1"></span>
+                                                <p>纯白色</p>
+                                            </a>
+                                            <em class="on_e"></em>
+                                        </li>
+                                        <li class="">
+                                            <a href="javascript: ;" class="on_s">
+                                                <span class="on_a2"></span>
+                                                <p>白色</p>
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="javascript: ;" class="on_s">
+                                                <span class="on_a3"></span>
+                                                <p>黑色</p>
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="javascript: ;" class="on_s">
+                                                <span class="on_a4"></span>
+                                                <p>藏蓝色</p>
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="javascript: ;" class="on_s">
+                                                <span class="on_a5"></span>
+                                                <p>米色</p>
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="javascript: ;" class="on_s">
+                                                <span class="on_a6"></span>
+                                                <p>红色</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- 尺码选择 -->
+                            <div class="cm clearfix">
+                                <div class="cm_txt">
+                                    <p>尺码 : &nbsp;</p>
+                                </div>
+                                <div class="cm_ms clearfix">
+                                    <ul class="clearfix">
+                                        <li class="c_li1 on">
+                                            <p>34</p>
+                                            <em class="on_e"></em>
+                                        </li>
+                                        <li class="c_li2">
+                                            <p>35</p>
+                                        </li>
+                                        <li class="c_li3">
+                                            <p>36</p>
+                                        </li>
+                                        <li class="c_li4">
+                                            <p>37</p>
+                                        </li>
+                                        <li class="c_li5">
+                                            <p>38</p>
+                                        </li>
+                                        <li class="c_li6">
+                                            <p>39</p>
+                                        </li>
+                                        <li class="c_li7">
+                                            <p>36.5</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- 数量选择 -->
+                            <div class="num clearfix">
+                                <div class="num_txt">
+                                    <p>数量 :&nbsp;</p>
+                                </div>
+                                <div class="num_inp">
+                                    <select id="selected">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                    <span class="blank15"></span>
+                                </div>
+                            </div>
+                            <!-- 显示已选商品 -->
+                            <div class="main_x">
+                                <div class="mx1">
+                                    <p>已选 : &nbsp;</p>
+                                </div>
+                                <div class="mx2 clearfix">
+                                    <p class="mx2_p1">纯白色</p>
+                                    <span>,</span>
+                                    <p class="mx2_sl">34</p>
+                                    <p class="mx2_p2">现在有货</p>
+                                </div>
+                            </div>
+                            <!-- 加入购物车 -->
+                            <div class="main_login clearfix">
+                                <a href="#" class="login_a1">立即购买</a>
+                                <a href="javascript: ;" class="login_a2"></a>
+                            </div>
+                            <div class="m_kb"></div>
+                           
+
+                        </div> 
+                        <!-- 优惠提示 -->
+                        <div class="youhui clearfix">
+                            <div class="yh_inner">
+                                <h4>
+                                    <span>优惠提示</span>
+                                </h4>
+                                <ul>
+                                    <li class="u_li1">
+                                        <span>包邮</span>
+                                        全场购物满199元免运费 
+                                    </li>
+                                    <li class="u_li2">
+                                        <span>m件n折</span>
+                                        2件7.5折
+                                    </li>
+                                    <li class="u_li3 clearfix">
+                                        <span>优惠劵</span>
+                                        <a href="#" class="l_a1">
+                                            满200减20
+                                        </a>
+                                        <a href="#" class="l_a2">
+                                            新人有礼
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+        <!-- 底部导航 fnav -->
+        <div id="fnav">
+            <div class="fnav_inner containner">
+                <div class="fnav_li">
+                    <ul class="clearfix">
+                        <li>
+                            <a href="#">
+                                <p class="li1_p1">
+                                    <img src="./images/onlinecustomer.png" alt="">
+                                </p>
+                                <p class="li1_p2">
+                                    7X9小时在线客服
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="li2_p1">
+                                    <img src="./images/seven.png" alt="">
+                                </p>
+                                <div class="li2_p2">
+                                    <p>7天内退货</p>
+                                    <p>购物满199元免运费</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="li3_p1">
+                                    <img src="./images/2014_8_29_16_39_33_7709.jpg" alt="" style="width: 104px;height: 104px;">
+                                </p>
+                                <p class="li3_p2">
+                                    扫描下载<span>凡客</span>客户端
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="s_nav">
+                    <ul class="clearfix">
+                        <li><a href="#">关于凡客</a></li>
+                        <li><a href="#">新手指南</a></li>
+                        <li><a href="#">配送范围及时间</a></li>
+                        <li><a href="#">支付方式</a></li>
+                        <li><a href="#">售后服务</a></li>
+                        <li><a href="#">帮助中心</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 底部footer -->
+        <div id="footer">
+            <div class="footer_inner containner">
+                <div class="f_text">
+                    <p class="t_p1">Copyright 2007 - 2020 vancl.com All Rights Reserved<a href="#">京ICP备08000757号</a> 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号</p>
+                    <p class="t_p2">凡客诚品（北京）科技有限公司</p>
+                </div>
+                <div class="f_icon">
+                    <span class="l_icon">
+    
+                    </span>
+                    <a href="#" class="f_img1"></a>
+                    <a href="#" class="f_img2"></a>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <script src="./jquery/jquery-1.12.4.js"></script>
+        <script src="./js/cookie.js"></script>
+        <script src="./js/home.js"></script>
+        <script src="./js/public.js"></script>
+        <script src="./js/glass.js"></script>
+</body>
+</html>
